@@ -4,11 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic website practice</title>
-    <style>
-      h1{
-        color: orange;
-      }
-    </style>
+   <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
    <header>
@@ -19,7 +15,7 @@
      <a>Flexbox</a>
      <a>Css_Grid</a>
     </nav>
-     <p>
+     <p id="author">
        Posted by <strong><i>Laura Jones</i></strong> on Monday, June 21st 2027
      </p>
    </header>
@@ -62,19 +58,19 @@
     <h4><strong>Related posts</strong></h4>
     <ul>
       <li><img src="img/related-1.jpg" alt="person programming" width="80px" height="80px"/><a href="#">How to learn webdevelopment</a></li>
-      <p>By jonas schmedtmann</p>
+      <p class="related-author">By jonas schmedtmann</p>
       
       <li><img src="img/related-2.jpg" alt="lightning" width="80px" height="80px"/><a href="#">The Unknown power of Css</a></li>
-      <p>By Jim Dillon</p>
+      <p class="related-author">By Jim Dillon</p>
       
       <li><img src="img/related-3.jpg" alt="code image" width="80px" height="80px"/><a href="#">Why javascript is awesome</a></li>
-      <p>By Matilda</p>
+      <p class="related-author">By Matilda</p>
     </ul>
 
 
    </aside>
      <footer>
-        <p>Copyright &copy; 2030 by Kareem's production</p>
+        <p id="copyright">Copyright &copy; 2030 by Kareem's production</p>
      </footer>
   </body>
 </html>

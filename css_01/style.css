@@ -1,0 +1,64 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: orange;
+  font-size: 26px;
+
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+}
+
+p {
+  font-size: 22px;
+
+  line-height: 1.5;
+}
+
+/* footer p {
+  font-size: 16px;
+  text-align: center;
+} */
+
+/* header p {
+  font-style: italic;
+}*/
+
+#author {
+  font-style: italic;
+  font-size: 16px;
+}
+
+#copyright {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
